@@ -5,18 +5,27 @@
     
 
   }
+  
+  .categories__title{
+    color: white;
+    font-size: 20px;
+    position: abosulte;
+    padding-left: 60px;
+    width: 100%;
+  }
 
   .carousel{
     width: 100%;
     overflow: scroll;
-    padding: 30px;
+    padding: 10px;
+    padding-left: 50px;
     position: relative;
-
+    margin: 10px;
   }
 
   .carousel__container{
     white-space: nowrap;
-    margin: 70px 0px;
+    margin: 0px 0px;
     padding-bottom: 10px;
 
 
@@ -115,3 +124,34 @@
     margin: 0px;
     
   }
+
+
+  .footer{
+    background-color: #AB88FF;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    
+  }
+  
+  .footer a{
+    color: white;
+    cursor: pointer;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    padding-left: 30px;
+    text-decoration: none;
+  
+  }
+  
+  .footer a:hover{
+    text-decoration: underline;
+  }
+
+
+  /* CON ESTO SE QUITA EL SCROLL */
+
+  .carousel::-webkit-scrollbar{
+    display: none;
+}

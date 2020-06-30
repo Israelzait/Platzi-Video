@@ -8,13 +8,13 @@
 
   <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="login.css">
 </head>
 
 
 
 <header class="header">
-  <img class="header__img" src="img/logo-platzi-video-BW2.png" alt="Platzi Video">
+  <img tabindex="0" class="header__img" src="/img/logo-platzi-video-BW2.png" alt="Platzi Video">
 </header>
 
 <section class="login">
@@ -25,7 +25,7 @@
 
     <form class="login__container-form" action="">
       <input  class="input" type="text" placeholder="Correo">
-      <input  class="input" type="Pasword" placeholder="Contraseña">
+      <input aria-label="Correo" class="input" type="Pasword" placeholder="Contraseña">
 
       <button class="button">
         Iniciar sesion
